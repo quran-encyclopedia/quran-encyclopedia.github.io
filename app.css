@@ -1811,3 +1811,26 @@ html[dir=ltr] .rail .brand b{font-size:1.2rem;line-height:1.25;overflow-wrap:nor
 .tsb-en2{margin:0;color:var(--muted);font-size:.95rem}
 @media (max-width:640px){.tsb-text{font-size:1.45rem}.tsb-ar{font-size:1.3rem}}
 @media (prefers-reduced-motion:reduce){.tsb-tap,.tsb-prg{transition:none}}
+/* فضائل السور وأسرارها (#fsur) */
+.fs-tools{display:grid;gap:10px}.fs-filters{display:flex;flex-wrap:wrap;gap:8px}
+.fs-flt.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.fs-chap[hidden]{display:none}.fs-chh{margin:14px 2px 8px;font-size:1.05rem;color:var(--muted)}
+.fs-s>summary .rs-sn{display:grid;gap:2px;min-width:0}
+.fs-body{padding-top:6px}
+.fs-facts{display:flex;flex-wrap:wrap;gap:8px}
+.fs-chip{background:var(--sheet);border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:.88rem}
+.fs-chip b{color:var(--accent)}
+.fs-sec{border-top:1px dashed var(--line);padding-top:12px;display:grid;gap:10px}
+.fs-sec>h3{margin:0;font-size:1.05rem;color:var(--accent)}
+.fs-h4{margin:4px 0 0;font-size:.95rem;color:var(--muted)}
+.fs-hs{display:grid;gap:12px}
+.fs-ul{margin:0;padding:0 22px 0 0;display:grid;gap:8px;line-height:2;font-size:1.02rem}
+html[dir=ltr] .fs-ul{padding:0 0 0 22px}
+.fs-q blockquote{font-family:inherit;font-size:1.02rem;line-height:2.1}
+.fs-cap,.fs-none{margin:0}
+.fs-es{margin:0;background:var(--accent-soft);border-radius:12px;padding:10px 14px;line-height:1.7}
+.fs-more>summary{cursor:pointer;color:var(--accent);font-weight:600;padding:4px 0}
+.fs-h h4{margin:0;font-size:1.02rem;color:var(--accent)}
+.fs-h{display:grid;gap:8px}
+@media (max-width:640px){.fs-ul{font-size:.98rem}.fs-q blockquote{font-size:.98rem}.fs-chip{font-size:.82rem;padding:2px 10px}}
+@media print{.fs-tools,.fs-go{display:none}}
